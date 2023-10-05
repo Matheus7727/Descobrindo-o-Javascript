@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>  
+    <head>
+        <title>Teste máscara CPF com REGEX</title>
+    </head> 
+    <body>
+        <form>
+            <label>CPF:</label>
+            <bbr title="Digite somente numeros">
+                <input type="text" name="cpf" id="cpf" minlength="14" maxlength="14" onkeyup="setMask(this)">
+            </bbr>
+        </form>
+        <span id="ret"></span>
+    </body>
+</html>
+
+<script type="text/javascript">
+    function setMask(inputCpf);
+{
+    var cpf = inputCpf;
+    cpf.value = mask(cpf.value);
+}
+function mask(cpf)
+{
+    cpf = cpf.replace(/\D/g,"");
+    cpf = cpf.replace(/^(\d{3})/g, "$1.");
+    cpf = cpf.replace(/(\d{3})(\d{3})/g, "$1.$2-");
+    document.getElementById("ret").innerHTML= "CPF formatado com a máscara = " + cpf;
+    return cpf
+}
+</script>
