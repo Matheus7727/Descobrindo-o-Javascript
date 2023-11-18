@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+    <meta name="viewport" content="widtg=device-width,"> 
+    <title>Receitas da Dona Jurema</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="header">
+        
+        <title> Receitas da Dona Jurema</title>  
+    </div>
+    <nav>
+        <ul>
+            <li>
+                <a href="home.html">HOME</a>
+            </li>
+            <li>
+                <a href="index.html">RECEITAS</a>
+            </li>
+            <li>
+                <a href="cadastro.html">CADASTRO</a>
+            </li>
+        </ul>
+    </nav> 
+    <div class="header"> 
+        <img src="./arquivos/arroz de couve.jfif">
+
+
+    <div class="conteudo">
+        <div class="card">
+            <h1>INGREDIENTES</h1>
+            <ul>
+                
+                <li>1 couve-flor em buquês lavados e secos (700 g)</li>
+                <li>1 fio de azeite de oliva</li>
+                <li>1 cebola pequena em cubinhos</li>
+                <li>1/2 colher (sopa) de alho picadinho ou espremido</li>
+                <li>3/4 de xícara (chá) de água quente (180 ml)</li>
+                <li>Sal</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="banner"> 
+        <img src="./arquivos/bolo de cafe.jfif">
+    </div>
+
+    <div class="conteudo">
+        <div class="card">
+            <h1>INGREDIENTES</h1>
+            <ul>
+                
+                <li>4 ovos</li>
+                <li>1 xícara de manteiga derretida</li>
+                <li>2 xícaras de café pronto (com açúcar)</li>
+                <li>1 colher de sopa de fermento em pó</li>
+                <li>3 xícaras de açúcar</li>
+                <li>1 xícara de chocolate (ou cacau em pó)</li>
+                <li>4 xícaras de farinha de trigo</li>
+            </ul>
+        </div>
+    </div>
+    <div class="banner"> 
+        <img src="arquivos/coxinha de brigadeiro.jfif">
+    </div>
+
+    <div class="conteudo">
+        <div class="card">
+            <h1>INGREDIENTES</h1>
+            <ul>
+                
+                <li>10 g de margarina</li>
+                <li>1 fio de azeite de oliva</li>
+                <li>1 caixinha de Creme de Leite</li>
+                <li>30 g de Cacau em Pó </li>
+                <li>100 g de Cobertura de Chocolate</li>
+                <li>10 morangos higienizados e secos</li>
+                <li>Granulado colorido</li>
+            </ul>
+        </div>
+    </div>
+    
+    <div class="card"></div>
+    <div class="footer">
+        <p>Copyright - Receitas da Dova Jurema 2023 - Todos os Direitos Reservados</p>
+    </div>
+</body>
+</html>
