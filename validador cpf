@@ -1,31 +1,37 @@
 <!DOCTYPE html>
-<html>  
+<html lang="pt-br">
     <head>
-        <title>Teste máscara CPF com REGEX</title>
-    </head> 
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Home</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
     <body>
-        <form>
-            <label>CPF:</label>
-            <bbr title="Digite somente numeros">
-                <input type="text" name="cpf" id="cpf" minlength="14" maxlength="14" onkeyup="setMask(this)">
-            </bbr>
-        </form>
-        <span id="ret"></span>
+        <div class="header">
+            
+            <nav>
+                <ul>
+                    <li>
+                        <a href="home.html">HOME</a>
+                    </li>
+                    <li>
+                        <a href="index.html">RECEITAS</a>
+                    </li>
+                    <li>
+                        <a href="cadastro.html">CADASTRO</a>
+                    </li>
+                </ul>
+            </nav> 
+            <main>
+                <div class="boas-vindas">
+                    <h1>Bem-vindo ao Meu Site</h1>
+                    <p>Uma mensagem de boas-vindas aqui.</p>
+                </div>
+            </main>
+            
+            <div class="card"></div>
+            <div class="footer">
+                <p>Copyright - Receitas da Dova Jurema 2023 - Todos os Direitos Reservados</p>
+            </div>
     </body>
-</html>
-
-<script type="text/javascript">
-    function setMask(inputCpf);
-{
-    var cpf = inputCpf;
-    cpf.value = mask(cpf.value);
-}
-function mask(cpf)
-{
-    cpf = cpf.replace(/\D/g,"");
-    cpf = cpf.replace(/^(\d{3})/g, "$1.");
-    cpf = cpf.replace(/(\d{3})(\d{3})/g, "$1.$2-");
-    document.getElementById("ret").innerHTML= "CPF formatado com a máscara = " + cpf;
-    return cpf
-}
-</script>
+    </html>
